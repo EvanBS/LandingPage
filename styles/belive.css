@@ -1,0 +1,51 @@
+.belive-container {
+	text-align: center;
+	margin-top: 100px;
+	background: #141519;
+	padding: 20px;
+}
+
+.bl-txt {
+	color: #f9f9f9;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.belive-flex-cont {
+	margin-left: auto;
+	margin: auto;
+	flex-wrap: wrap;
+	display: flex;
+	margin-top: 20px;
+	display: flex;
+	max-width: 900px;
+	justify-content: space-between;
+	
+}
+
+.belive-flex-el {
+
+	display: grid;
+	grid-row-gap: 15px;
+	justify-content: center;
+	text-align: center;
+}
+
+.belive-flex-el img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.num {
+	color: #f9f9f9;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.under-num {
+	color: #f9f9f9;
+	font-size: 18px;
+	font-weight: 300;
+}

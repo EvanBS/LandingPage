@@ -1,0 +1,100 @@
+.container {
+	display: flex;
+	flex-direction: column;
+
+
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	min-height: 729px;
+	background: #ffffff;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+
+.smile {
+	margin-top: 107px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-flex;
+	width: 64px;
+	height: 64px;
+	color: #4c4c4c;
+	font-family: et;
+	font-size: 63px;
+	line-height: 27px;
+}
+
+
+
+.features {
+	display: block;
+	/*64 - 46 = 18*/
+	text-align: center;
+
+	margin-top: 18px;
+	color: #ffffff;
+	
+	height: 10px;
+	color: #a5a5a5;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 67px;
+	text-transform: uppercase;
+
+/* Text style for "Product Fe" */
+	letter-spacing: 3.67px;
+}
+
+
+.what_we_do {
+	text-align: center;
+	margin-top: 50px;
+	/* Style for "What we do" */
+	
+	height: 47px;
+	color: #4c4c4c;
+	font-size: 61px;
+	
+}
+
+.dospan {
+	color: #1abc9c;
+}
+
+
+.triple_div_cont {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+	
+	background: #ffffff;
+}
+
+
+.it {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	min-width: 370px;
+	min-height: 250px;
+}
+
+.it_text_font {
+	flex-wrap: wrap;
+	/* Style for "Fully Resp" */
+	color: #4c4c4c;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 67px;
+	/* Text style for "Fully Resp" */
+	letter-spacing: 0.14px;
+}
+
+.lor {
+	color: #939598;
+	font-size: 16px;
+}

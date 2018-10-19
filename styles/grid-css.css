@@ -1,0 +1,214 @@
+.grid-container {
+	
+	display: grid;
+	align-items: center;
+	width: 100%;
+	background: #f8f9fb;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+
+.phone-pictr {
+	margin-top: 107px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	/* Style for "?" */
+	width: 64px;
+	height: 64px;
+	color: #4c4c4c;
+	font-family: et;
+	font-size: 64px;
+}
+
+
+
+.portf {
+	display: block;
+	/*64 - 46 = 18*/
+	text-align: center;
+
+	margin-top: 10px;
+	color: #ffffff;
+
+	color: #a5a5a5;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 67px;
+	text-transform: uppercase;
+
+/* Text style for "Product Fe" */
+	letter-spacing: 4.48px;
+}
+
+
+.our-works {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	/* Style for "What we do" */
+	
+
+	color: #4c4c4c;
+	font-size: 61px;
+	font-weight: 300;
+	line-height: 67px;
+}
+
+
+.grid-list {
+	width: 40%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	grid-auto-rows: minmax(auto, auto);
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	grid-gap: 5px;
+}
+
+.grid-list-item-all {
+	padding-top: 10px;
+	display: inline-grid;
+	min-width: 140px;
+	min-height: 40px;
+	background-color: #000000;
+	box-sizing: border-box;
+	color: white;
+}
+
+.grid-list-item {
+	padding-top: 10px;
+	display: inline-grid;
+	min-width: 140px;
+	min-height: 40px;
+	background-color: #1abc9c;
+	box-sizing: border-box;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+	.grid {
+		display: grid;
+		/*
+			второму мжн задать фиксированный размер
+			100 px - минимальная ширина колонки
+			когда мин значение 200px - переход на новую колонку
+		*/
+
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		grid-auto-rows: minmax(auto, 560px);
+		margin-bottom: 100px;
+	}
+
+	.itm {
+		font-size: 18px;
+		font-family: roboto;
+
+
+		display: grid;
+		grid-template-rows: repeat(auto-fit, 1fr);
+		
+	}
+
+	/*
+		534px
+		197 267 70
+	*/
+	.itm-triple {
+		grid-template-rows: 3.6fr 5fr 1.3fr;
+	}
+
+	.inner_itm1 {
+		background: #fdbd4f;
+	}
+	
+	.inner_itm2 {
+		background: #e0eaf3;
+	}
+
+	.inner_itm3-1 {
+		background: #b8c496;
+	}
+
+	.inner_itm3-2 {
+		padding-left: 20px;
+		padding-top: 20px;
+		background: url(ice-cream.png);
+	}
+
+	.inner_itm3-3 {
+		background: #252830;
+	}
+
+
+	.inner_itm4 {
+		background: #65bcd0;
+	}
+
+	.inner_itm5 {
+		background: #e5e4e2;
+	}
+
+
+	.inner_itm6 {
+		background: #d7f0ed;
+	}
+
+	.inner_itm7 {
+		background: #ffc301;
+	}
+
+
+
+	.divss {
+
+		box-sizing: border-box;
+		padding-top: 5px;
+		text-align: center;
+		/* Style for "Rounded Re" */
+		display: inline-block;
+		width: 71px;
+		height: 22px;
+		border-radius: 4px;
+		background-color: #ffffff;
+		opacity: 0.7;
+	}
+
+	.indiv-text {
+		/* Style for "Bootstrap" */
+		
+		color: #5ebd85;
+		font-family: Ubuntu;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 12px;
+	}
+
+
+	.bottom-div {
+		box-sizing: border-box;
+		padding-top: 16px;
+		padding-left: 11px;
+		/* Style for "Infinite L" */
+		
+		color: #ffffff;
+		font-family: Ubuntu;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 12px;
+		/* Text style for "Naveen" */
+		font-size: 16px;
+		font-weight: 700;
+	}

@@ -1,0 +1,76 @@
+.get-main-cont {
+	text-align: center;
+	background: #ffffff;
+	
+}
+
+.main-text {
+	margin-top: 50px;
+	color: #4c4c4c;
+	font-family: Ubuntu;
+	font-size: 57px;
+	font-weight: 300;
+	line-height: 67px;
+}
+
+.suppotted {
+	display: inline-block;
+	color: #939598;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 67px;
+}
+
+.dospan {
+	color: #1abc9c;
+}
+
+.get-triple-cont {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	display: grid;
+}
+
+.get-one-cont {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(60px, auto));
+	grid-column-gap: 15px; 
+}
+
+.left-inner-item {
+	display: inline-block;
+	padding: 10px;
+	padding-top: 15px;
+	
+	background-color: #222222;
+}
+
+.right-inner-item {
+	display: inline-block;
+	padding: 10px;
+	padding-right: 40px;
+	color: #ffffff;
+	font-family: "Myriad Pro";
+	font-size: 28px;
+	font-weight: 300;
+	background-color: #222222;
+
+}
+
+.app-store {
+	text-align: left;
+
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 35px;
+
+
+	/* Text style for "App Store" */
+	font-weight: 300;
+	line-height: 28px;
+	background-color: #222222;
+
+}

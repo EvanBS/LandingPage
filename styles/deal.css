@@ -1,0 +1,164 @@
+.deal-container {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(auto, 370px));
+	grid-auto-rows: minmax(auto, auto);
+	grid-column-gap: 10px;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.pc {
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 68px;
+	height: 62px;
+	color: #4c4c4c;
+	font-family: et;
+	font-size: 62px;
+	line-height: 67px;
+	text-transform: uppercase;
+}
+
+
+
+.deal-select {
+	margin-top: 50px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.deal-select:hover {
+	box-shadow: 0 0 32px rgba(128, 128, 122, 0.22);
+	background-color: #1abc9c;
+	transition: all 0.5s ease;
+}
+
+
+.top-deal-text {
+	color: #4c4c4c;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 67px;
+	text-transform: uppercase;
+	/* Text style for "Basic" */
+	letter-spacing: 0.2px;
+}
+
+.deal-select:hover .top-deal-text {
+	color: white;
+}
+
+.deal-select:hover .deal-lorem-text {
+	color: white;
+}
+
+.deal-select:hover .get-st {
+	background-color: white;
+}
+
+.deal-select:hover .get-st span {
+	color: #1abc9c;
+}
+
+
+.price-circle {
+	display: grid;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	width: 120px;
+	height: 120px;
+	background: #fbfbfb;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+}
+
+.price {
+	color: #4c4c4c;
+	font-family: Ubuntu;
+	font-size: 29px;
+	font-weight: 400;
+	line-height: 67px;
+	text-transform: uppercase;
+	/* Text style for "$59" */
+	letter-spacing: 0.29px;
+}
+
+.deal-lorem-text {
+	color: #939598;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 67px;
+	/* Text style for "Per Month" */
+	letter-spacing: 0.16px;
+}
+
+.deal-text-box {
+	margin-top: 20px;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 37px;
+	/* Text style for "" */
+	color: #878787;
+
+	/* Text style for "Bandwidth" */
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+.dospan2 {
+	color: #636363;
+}
+
+
+.get-st {
+	cursor: pointer;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	padding-left: auto;
+	padding-right: auto;
+	/* Style for "Rectangle" */
+	width: 145px;
+	height: 50px;
+	background-color: #1abc9c;
+}
+
+.get-st span {
+	margin-left: auto;
+	margin-right: auto;
+	color: #fdfdfd;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 50px;
+}
+
+@media only screen and (max-width: 830px) {
+	
+    .deal-text-box {
+		display: none;
+    }
+
+}
+
+@media only screen and (max-width: 780px) {
+	
+    .price-circle {
+		display: none;
+    }
+
+    .deal-lorem-text {
+    	display: none;
+    }
+
+}

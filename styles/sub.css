@@ -1,0 +1,42 @@
+.sub-cont {
+	background: #f2f2f0;
+	padding: 150px;
+	display: grid;
+	justify-content: flex-end;
+}
+
+.sub-div {
+	max-width: 500px;
+	display: grid;
+	grid-row-gap: 20px;
+}
+
+.sub-top-txt {
+	color: #4c4c4c;
+	font-size: 46px;
+	font-weight: 300;
+	line-height: 50px;
+	letter-spacing: 0.46px;
+}
+
+.sub-div input {
+	width: 100%;
+	padding: 15px;
+}
+
+.sub-div span {
+	color: #939598;
+	font-size: 16px;
+	letter-spacing: 0.16px;
+	line-height: 30px;
+	letter-spacing: 0.16px;
+	line-height: 27px;
+}
+
+input:focus {
+	border: 1px solid green;
+}
+
+a {
+	color: white;
+}
